@@ -1,5 +1,4 @@
 return {
-  {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
@@ -28,7 +27,13 @@ return {
         "yaml",
         "zig",
         "rust",
+        "css",
+        "latex",
+        "norg",
+        "scss",
+        "svelte",
+        "typst",
+        "vue"
       },
     },
-  },
-}
+  }
